@@ -1,0 +1,22 @@
+name: payment_key_client
+description: "Flutter package for FreedomPay HPC payment key generation. Provides card data modelling, Luhn validation, PAN utilities, RSA-OAEP encryption, and an HTTP client for the payment key endpoint."
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  asn1lib: ^1.6.5
+  pointycastle: ^3.9.1
+
+dev_dependencies:
+  test: ^1.24.0
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter: null

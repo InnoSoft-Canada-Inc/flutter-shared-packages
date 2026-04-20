@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - pay_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - pay_ios (from `.symlinks/plugins/pay_ios/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  pay_ios:
+    :path: ".symlinks/plugins/pay_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  pay_ios: 2c48d76615ded0cfaff66185669501b8b1dfc55e
+
+PODFILE CHECKSUM: 912e34f102da91123e38965ab4e5b3fb21e195f0
+
+COCOAPODS: 1.16.2
