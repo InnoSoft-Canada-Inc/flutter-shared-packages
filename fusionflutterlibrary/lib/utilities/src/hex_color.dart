@@ -1,4 +1,4 @@
-part of fsutilities;
+part of '../fs_utilities.dart';
 
 class HexColor extends Color {
   HexColor(final String hexColor) : super(_getColorFromHex(hexColor));

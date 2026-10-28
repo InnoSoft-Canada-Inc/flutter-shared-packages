@@ -1,9 +1,9 @@
-part of fsutilities;
+part of '../fs_utilities.dart';
 
 class SearchHighlightText extends StatelessWidget {
   const SearchHighlightText(
     this.text, {
-    Key? key,
+    super.key,
     this.searchText,
     this.searchRegExp,
     this.style,
@@ -17,8 +17,7 @@ class SearchHighlightText extends StatelessWidget {
     this.strutStyle,
     this.textWidthBasis,
     this.highlightStyle,
-  })  : assert(searchText == null || searchRegExp == null),
-        super(key: key);
+  }) : assert(searchText == null || searchRegExp == null);
 
   final String text;
   final String? searchText;

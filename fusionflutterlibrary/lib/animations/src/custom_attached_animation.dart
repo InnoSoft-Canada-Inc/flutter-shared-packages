@@ -1,11 +1,10 @@
-part of fsanimations;
+part of '../fs_animations.dart';
 
 class CustomAttachedAnimation extends StatefulWidget {
   final AnimationController? controller;
   final Widget? child;
 
-  const CustomAttachedAnimation({Key? key, this.controller, this.child})
-      : super(key: key);
+  const CustomAttachedAnimation({super.key, this.controller, this.child});
 
   @override
   CustomAttachedAnimationState createState() => CustomAttachedAnimationState();

@@ -1,4 +1,4 @@
-part of fsanimations;
+part of '../fs_animations.dart';
 
 class FadeInTransition extends StatefulWidget {
   /// [child] to be Animated
@@ -14,12 +14,12 @@ class FadeInTransition extends StatefulWidget {
   final Duration? delay;
 
   const FadeInTransition({
-    Key? key,
+    super.key,
     required this.child,
     this.duration,
     this.curve,
     this.delay,
-  }) : super(key: key);
+  });
 
   @override
   FadeInTransitionState createState() => FadeInTransitionState();

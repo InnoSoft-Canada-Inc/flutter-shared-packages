@@ -1,5 +1,3 @@
-library fsextensions;
-
 import 'package:flutter/material.dart';
 import 'package:fusionflutterlibrary/utilities/fs_utilities.dart';
 

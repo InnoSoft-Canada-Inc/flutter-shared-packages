@@ -1,4 +1,4 @@
-part of fsextensions;
+part of '../fs_externsions.dart';
 
 extension RetrieveColor on String {
   Color getColorFromHex() {

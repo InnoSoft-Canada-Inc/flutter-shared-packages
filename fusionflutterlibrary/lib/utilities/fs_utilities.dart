@@ -1,5 +1,3 @@
-library fsutilities;
-
 import 'package:flutter/material.dart';
 
 part 'src/hex_color.dart';

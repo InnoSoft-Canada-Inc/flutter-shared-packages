@@ -7,17 +7,17 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  aws_cloudwatch: ^1.1.0
-  bloc: ^9.2.0
-  firebase_core: ^4.3.0
-  firebase_crashlytics: ^5.0.6
+  aws_cloudwatch: ^2.1.0
+  bloc: ^9.2.1
+  firebase_core: ^5.1.0
+  firebase_crashlytics: ^6.0.1
   flutter:
     sdk: flutter
-  get_it: ^9.2.0
-  intl: ^0.20.2
-  talker_bloc_logger: ^5.1.10
-  talker_dio_logger: ^5.1.10
-  talker_flutter: ^5.1.10
+  get_it: ^9.3.0
+  intl: ^0.20.3
+  talker_bloc_logger: ^5.2.0
+  talker_dio_logger: ^5.2.0
+  talker_flutter: ^5.2.0
 
 dev_dependencies:
   flutter_lints: ^6.0.0

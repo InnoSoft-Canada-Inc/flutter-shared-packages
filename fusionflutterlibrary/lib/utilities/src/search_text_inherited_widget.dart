@@ -1,18 +1,17 @@
-part of fsutilities;
+part of '../fs_utilities.dart';
 
 class SearchTextInheritedWidget extends InheritedWidget {
   const SearchTextInheritedWidget({
-    Key? key,
+    super.key,
     String? searchText,
     RegExp? searchRegExp,
     this.highlightStyle,
     this.highlightColor = Colors.red,
-    required Widget child,
+    required super.child,
   })  : _searchText = searchText,
         _searchRegExp = searchRegExp,
         assert(searchText != null || searchRegExp != null),
-        assert(searchText == null || searchRegExp == null),
-        super(key: key, child: child);
+        assert(searchText == null || searchRegExp == null);
 
   final String? _searchText;
   final TextStyle? highlightStyle;

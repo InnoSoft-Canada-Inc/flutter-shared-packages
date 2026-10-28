@@ -1,4 +1,4 @@
-part of fsanimations;
+part of '../fs_animations.dart';
 
 enum SlideFromSlide { top, bottom, left, right }
 
@@ -19,13 +19,12 @@ class ShowUpTransition extends StatefulWidget {
   final SlideFromSlide slideSide;
 
   const ShowUpTransition(
-      {Key? key,
+      {super.key,
       required this.child,
       this.duration,
       this.delay,
       this.slideSide = SlideFromSlide.left,
-      required this.forward})
-      : super(key: key);
+      required this.forward});
 
   @override
   ShowUpTransitionState createState() => ShowUpTransitionState();
